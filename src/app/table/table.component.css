@@ -1,0 +1,41 @@
+.top-week-group{
+    display:flex;
+    margin: 2%;
+}
+.week{
+    background: gainsboro;
+    margin-right: 1%;
+    width: 8%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottom {
+    background: gainsboro;
+}
+
+.bottom-element
+{
+    display: flex;
+}
+.bottom-text
+{
+    margin: 0; 
+    font-weight: 600; 
+    padding-left: 10%;
+}
+.clinic {
+    color: #D6578B;
+}
+.labs {
+    color:#8E5B9A;
+}
+.endoscopy {
+    color:#D6578B;
+}
+.ecare {
+    color:#8E5B9A;
+}
+.other {
+    color:#999999;
+}

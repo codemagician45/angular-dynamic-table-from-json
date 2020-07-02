@@ -1,0 +1,85 @@
+[
+    {
+        "id": "5efc5e434b914dd5507971e2",
+        "patientId": 0,
+        "treatment": [
+            {
+                "id": 0,
+                "week": 3,
+                "name": "culpa"
+            },
+            {
+                "id": 1,
+                "week": 10,
+                "name": "proident"
+            },
+            {
+                "id": 2,
+                "week": 9,
+                "name": "aliquip"
+            }
+        ],
+        "isActive": true
+    },
+    {
+        "id": "5efc5e43581864ec193b3621",
+        "patientId": 1,
+        "treatment": [
+            [
+                {
+                    "id": 0,
+                    "week": 8,
+                    "name": "clinci"
+                },
+                {
+                    "id": 1,
+                    "week": 8,
+                    "name": "lab"
+                },
+                {
+                    "id": 2,
+                    "week": 8,
+                    "name": "endoscope"
+                }
+            ],
+            {
+                "id": 0,
+                "week": 10,
+                "name": "minim"
+            },
+            {
+                "id": 1,
+                "week": 2,
+                "name": "pariatur"
+            },
+            {
+                "id": 2,
+                "week": 4,
+                "name": "aliqua"
+            }
+        ],
+        "isActive": true
+    },
+    {
+        "id": "5efc5e432e34f7c7e95f48c6",
+        "patientId": 2,
+        "treatment": [
+            {
+                "id": 0,
+                "week": 2,
+                "name": "commodo"
+            },
+            {
+                "id": 1,
+                "week": 7,
+                "name": "ut"
+            },
+            {
+                "id": 2,
+                "week": 5,
+                "name": "nisi"
+            }
+        ],
+        "isActive": false
+    }
+]
