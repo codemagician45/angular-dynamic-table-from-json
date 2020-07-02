@@ -6,17 +6,17 @@
             {
                 "id": 0,
                 "week": 3,
-                "name": "culpa"
+                "name": "clinic"
             },
             {
                 "id": 1,
                 "week": 10,
-                "name": "proident"
+                "name": "labs"
             },
             {
                 "id": 2,
                 "week": 9,
-                "name": "aliquip"
+                "name": "pathology"
             }
         ],
         "isActive": true
@@ -29,33 +29,33 @@
                 {
                     "id": 0,
                     "week": 8,
-                    "name": "clinci"
+                    "name": "ecare"
                 },
                 {
                     "id": 1,
                     "week": 8,
-                    "name": "lab"
+                    "name": "radiology"
                 },
                 {
                     "id": 2,
                     "week": 8,
-                    "name": "endoscope"
+                    "name": "endoscopy"
                 }
             ],
             {
                 "id": 0,
                 "week": 10,
-                "name": "minim"
+                "name": "surgery"
             },
             {
                 "id": 1,
                 "week": 2,
-                "name": "pariatur"
+                "name": "post-sugnery-self-assessment"
             },
             {
                 "id": 2,
                 "week": 4,
-                "name": "aliqua"
+                "name": "my-menu"
             }
         ],
         "isActive": true
@@ -67,17 +67,17 @@
             {
                 "id": 0,
                 "week": 2,
-                "name": "commodo"
+                "name": "my-menu"
             },
             {
                 "id": 1,
                 "week": 7,
-                "name": "ut"
+                "name": "surgery"
             },
             {
                 "id": 2,
                 "week": 5,
-                "name": "nisi"
+                "name": "labs"
             }
         ],
         "isActive": false

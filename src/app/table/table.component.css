@@ -1,6 +1,7 @@
 .top-week-group{
     display:flex;
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .week{
     background: gainsboro;
@@ -9,7 +10,18 @@
     font-weight: 700;
     text-align: center;
 }
-
+.week-patient-group{
+    display:flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+.patient{
+    margin-right: 1%;
+    width: 8%;
+    font-weight: 700;
+    text-align: center;
+}
 .bottom {
     background: gainsboro;
 }
