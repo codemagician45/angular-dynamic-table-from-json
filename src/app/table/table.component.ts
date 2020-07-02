@@ -38,7 +38,7 @@ export class TableComponent implements OnInit {
         p.map(subp => {
           switch (subp.name) {
             case 'clinic':
-              this.addedElementsArr.push(`<img src='../../assets/icons/line.png'><img src='../../assets/icons/clinic/clinic@3x.png'>`);
+              this.addedElementsArr.push(`<img src='../../assets/icons/line.png'><img style="width:100%" src='../../assets/icons/clinic/clinic@3x.png'>`);
               break;
             case 'labs':
               this.addedElementsArr.push(`<img src='../../assets/icons/line.png'><img src='../../assets/icons/labs/labs@3x.png'>`);

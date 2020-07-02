@@ -1,5 +1,5 @@
 <div class="container">
-    <div>
+    <div style="margin-top: 30px;">
         <mat-form-field appearance="fill">
             <mat-label>Parent ID</mat-label>
             <mat-select (selectionChange)="OnSelect($event)">
@@ -9,104 +9,108 @@
             </mat-select>
         </mat-form-field>
     </div>
-    <div class="top-week-group">
-        <div class="week">Now</div>
-        <div class="week">1</div>
-        <div class="week">2</div>
-        <div class="week">3</div>
-        <div class="week">4</div>
-        <div class="week">5</div>
-        <div class="week">6</div>
-        <div class="week">7</div>
-        <div class="week">8</div>
-        <div class="week">9</div>
-        <div class="week">10</div>
-        <div class="week">11</div>
-        <div class="week">12</div>
-    </div>
-    <div class="week-patient-group">
-        <!-- <div *ngFor="let week of weeks">
-            <div class="patient" id="{{ week }}">{{week}}</div>
-        </div> -->
-        <div class="patient" id="0"></div>
-        <div class="patient" id="1">
+    <div class="top-table">
+        <div class="top-week-group">
+            <div class="week">Now</div>
+            <div class="week">1</div>
+            <div class="week">2</div>
+            <div class="week">3</div>
+            <div class="week">4</div>
+            <div class="week">5</div>
+            <div class="week">6</div>
+            <div class="week">7</div>
+            <div class="week">8</div>
+            <div class="week">9</div>
+            <div class="week">10</div>
+            <div class="week">11</div>
+            <div class="week">12</div>
         </div>
-        <div class="patient" id="2"></div>
-        <div class="patient" id="3"></div>
-        <div class="patient" id="4"></div>
-        <div class="patient" id="5"></div>
-        <div class="patient" id="6"></div>
-        <div class="patient" id="7"></div>
-        <div class="patient" id="8"></div>
-        <div class="patient" id="9"></div>
-        <div class="patient" id="10"></div>
-        <div class="patient" id="11"></div>
-        <div class="patient" id="12"></div>
+        <div class="week-patient-group">
+            <!-- <div *ngFor="let week of weeks">
+                <div class="patient" id="{{ week }}">{{week}}</div>
+            </div> -->
+            <div class="patient" id="0"></div>
+            <div class="patient" id="1">
+            </div>
+            <div class="patient" id="2"></div>
+            <div class="patient" id="3"></div>
+            <div class="patient" id="4"></div>
+            <div class="patient" id="5"></div>
+            <div class="patient" id="6"></div>
+            <div class="patient" id="7"></div>
+            <div class="patient" id="8"></div>
+            <div class="patient" id="9"></div>
+            <div class="patient" id="10"></div>
+            <div class="patient" id="11"></div>
+            <div class="patient" id="12"></div>
+        </div>
     </div>
     <div class="bottom">
-        <div class="row" style="padding:10px;">
-            <div class="col-2">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/clinic/clinic@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/clinic/clinic@2x.png'>
                     <p class="bottom-text clinic">Clinic</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/labs/labs@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/labs/labs@2x.png'>
                     <p class="bottom-text labs">Labs</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/radiology/radiology@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/radiology/radiology@2x.png'>
                     <p class="bottom-text other">Radiology</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/pathology/pathology@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/pathology/pathology@2x.png'>
                     <p class="bottom-text other">Pathology</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/endoscopy/endoscopy@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/endoscopy/endoscopy@2x.png'>
                     <p class="bottom-text endoscopy">Endoscopy</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/ecare/ecare@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/ecare/ecare@2x.png'>
                     <p class="bottom-text labs">eCare</p>
                 </div>
             </div>
         </div>
-        <div class="row" style="padding:10px;">
-            <div class="col-2">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/my-coach/my-coach@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/my-coach/my-coach@2x.png'>
                     <p class="bottom-text other">My Coach</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/surgery/surgery@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/surgery/surgery@2x.png'>
                     <p class="bottom-text other">Surgery</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                 <div class="bottom-element">
-                    <img src='../../assets/icons/post-sugnery-self-assessment/post-sugnery-self-assessment@2x.png'>
-                    <p class="bottom-text other">Post Sugnery Self Assessment</p>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="bottom-element">
-                    <img src='../../assets/icons/my-menu/my-menu@2x.png'>
+                    <img class="bottom-img" src='../../assets/icons/my-menu/my-menu@2x.png'>
                     <p class="bottom-text other">My Menu</p>
                 </div>
             </div>
+            <div class="col-lg-4 col-md- col-sm-12 col-6">
+                <div class="bottom-element">
+                    <img class="bottom-img"
+                        src='../../assets/icons/post-sugnery-self-assessment/post-sugnery-self-assessment@2x.png'>
+                    <p class="bottom-text other">Post Sugnery Self Assessment</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

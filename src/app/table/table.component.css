@@ -29,12 +29,13 @@
 .bottom-element
 {
     display: flex;
+    padding: 10px;
 }
 .bottom-text
 {
     margin: 0; 
     font-weight: 600; 
-    padding-left: 10%;
+    padding-left: 10px;
 }
 .clinic {
     color: #D6578B;
@@ -50,4 +51,14 @@
 }
 .other {
     color:#999999;
+}
+.bottom-img
+{
+    height: 24px;
+}
+.top-table 
+{
+    height: 500px;
+    padding: 10px;
+    border: solid 1px;
 }
