@@ -8,7 +8,7 @@ import { isArray } from 'util';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-  weeks = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  weeks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   data: any = [];
   selected = {};
   addedElement;

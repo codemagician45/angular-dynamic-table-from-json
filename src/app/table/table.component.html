@@ -12,37 +12,11 @@
     <div class="top-table">
         <div class="top-week-group">
             <div class="week">Now</div>
-            <div class="week">1</div>
-            <div class="week">2</div>
-            <div class="week">3</div>
-            <div class="week">4</div>
-            <div class="week">5</div>
-            <div class="week">6</div>
-            <div class="week">7</div>
-            <div class="week">8</div>
-            <div class="week">9</div>
-            <div class="week">10</div>
-            <div class="week">11</div>
-            <div class="week">12</div>
+            <div *ngFor="let week of weeks" class="week">{{ week }}</div>
         </div>
         <div class="week-patient-group">
-            <!-- <div *ngFor="let week of weeks">
-                <div class="patient" id="{{ week }}">{{week}}</div>
-            </div> -->
-            <div class="patient" id="0"></div>
-            <div class="patient" id="1">
-            </div>
-            <div class="patient" id="2"></div>
-            <div class="patient" id="3"></div>
-            <div class="patient" id="4"></div>
-            <div class="patient" id="5"></div>
-            <div class="patient" id="6"></div>
-            <div class="patient" id="7"></div>
-            <div class="patient" id="8"></div>
-            <div class="patient" id="9"></div>
-            <div class="patient" id="10"></div>
-            <div class="patient" id="11"></div>
-            <div class="patient" id="12"></div>
+            <div class="patient" style="height: 500px;" id="0"></div>
+            <div *ngFor="let week of weeks" class="patient" id="{{ week }}"></div>
         </div>
     </div>
     <div class="bottom">

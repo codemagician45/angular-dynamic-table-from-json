@@ -23,6 +23,7 @@
     text-align: center;
 }
 .bottom {
+    margin-top: 30px;
     background: gainsboro;
 }
 
@@ -58,7 +59,7 @@
 }
 .top-table 
 {
-    height: 500px;
+    /* height: 500px; */
     padding: 10px;
     border: solid 1px;
 }
